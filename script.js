@@ -550,11 +550,11 @@ function initResumeDownload() {
         e.preventDefault();
 
         // Path to your PDF (keep it in public folder or accessible URL)
-        const pdfUrl = 'Abhay%20PATEL.pdf'; 
+        const pdfUrl = 'Jay_ Kotecha_ Python_ Resume .pdf'; 
 
         const a = document.createElement('a');
         a.href = pdfUrl;
-        a.download = 'Abhay_Patel_Resume.pdf'; // force download
+        a.download = 'Jay_ Kotecha_ Python_ Resume .pdf'; // force download
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
