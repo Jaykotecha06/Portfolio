@@ -489,58 +489,7 @@ function initFloatingLogos() {
     });
 }
 
-// Resume download functionality
-// function initResumeDownload() {
-//     const downloadBtn = document.getElementById('download-resume');
-//     if (!downloadBtn) return;
-    
-//     downloadBtn.addEventListener('click', (e) => {
-//         e.preventDefault();
-        
-//         // Create a dummy resume content
-//         const resumeContent = `
-//         ABHAY PATEL - Full-Stack Developer
-        
-//         Contact Information:
-//         Email: abhaypatel07578@gmail.com
-//         Phone: +91 9106559022
-//         Location: Surat, India
-        
-//         Experience: 1+ years in web development
-        
-//         Skills:
-//         - PHP (Core & OOP)
-//         - Laravel & CodeIgniter
-//         - JavaScript (ES6+)
-//         - React & Node.js
-//         - MySQL & Database Design
-//         - RESTful APIs & GraphQL
-        
-//         Projects:
-//         - Shakebug (Bug Tracking Platform)
-//         - TNCA (Cricket Management System)
-//         - Indiamea (E-commerce Platform)
-//         - And 5+ more projects...
-        
-//         Education:
-//         - MCA (2022-2024) - Gujarat Technological University - 7.20 CGPA
-//         - BCA (2019-2022) - Veer Narmad South Gujarat University - 6.80 CGPA
-//         `;
-        
-//         // Create and download file
-//         const blob = new Blob([resumeContent], { type: 'text/plain' });
-//         const url = window.URL.createObjectURL(blob);
-//         const a = document.createElement('a');
-//         a.href = url;
-//         a.download = 'Abhay_Patel_Resume.txt';
-//         document.body.appendChild(a);
-//         a.click();
-//         document.body.removeChild(a);
-//         window.URL.revokeObjectURL(url);
-        
-//         showNotification('Resume downloaded successfully!', 'success');
-//     });
-// }
+
 
 function initResumeDownload() {
     const downloadBtn = document.getElementById('download-resume');
