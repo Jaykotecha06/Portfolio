@@ -132,11 +132,9 @@ const projects = [
     ],
     techStack: ["Python", "Selenium", "Undetected-Chromedriver", "Flask", "Pandas", "BeautifulSoup"],
     images: [
-       "images/projects/rmt/1.png",
-      "images/projects/rmt/2.png",
-      "images/projects/rmt/3.png",
-      "images/projects/rmt/4.png"
-    ]
+       "images/projects/SEO Rank Tracker/1.png",
+      "images/projects/SEO Rank Tracker/2.png",
+      "images/projects/SEO Rank Tracker/3.png"    ]
   },
   
   {
