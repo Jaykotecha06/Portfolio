@@ -290,7 +290,7 @@ function populateModal(project) {
     // });
     
     // Team info
-    document.getElementById('modal-team').textContent = project.category.includes('CRM') || project.category.includes('Extension') || project.category.includes('Healthcare') ? 'Solo Project' : 'Team Project';
+    document.getElementById('modal-team').textContent = project.category.includes('CRM') || project.category.includes('Extension') || project.category.includes('Healthcare') ? 'Solo Project' : 'Individual Project';
 }
 
 // Contact form functionality
