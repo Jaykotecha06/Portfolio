@@ -163,27 +163,26 @@ const projects = [
     ]
   },
      {
-    id: "careplus",
-    title: "Careplus",
-    tech: "WordPress",
-    category: "Healthcare",
-    description: "A healthcare service website providing home-based medical and caregiving solutions.",
-    fullDescription: "Careplus is a professional healthcare service platform designed to make quality medical care accessible at home. The website highlights a wide range of services including nursing care, doctor visits, medical equipment rental, physiotherapy, diagnostic testing, and emergency support. Built on WordPress, Careplus ensures a user-friendly experience with clear navigation, service details, and easy access to contact and booking options. The platform was developed to help patients and families conveniently connect with trained healthcare professionals while maintaining affordability and trust.",
+    id: "Amazon Data Scrapping",
+    title: "Amazon Data Scrapping",
+    tech: "Python",
+    category: "E-Commerce",
+    description: "An advanced Amazon product data extraction system designed to scrape real-time product details, pricing, ratings, reviews, and availability for market research and competitive analysis.",
+    fullDescription: "A powerful Amazon data scraping solution built to extract structured product information such as titles, pricing, ratings, reviews, specifications, and availability. The system automates large-scale data collection for e-commerce analytics, competitor tracking, and price monitoring, ensuring accurate and up-to-date insights for business decision-making.",
     features: [
-      "Home nursing services with ICU-trained staff",
-      "Doctor visits at home",
-      "Physiotherapy and rehabilitation support",
-      "Medical equipment rental and sales",
-      "Diagnostic tests with home sample collection",
-      "Medicine and surgical supply delivery",
-      "Caretaker services for daily living assistance",
-      "Emergency ambulance and portable diagnostic facilities"
+      "Automated scraping of Amazon product listings",
+      "Extraction of product titles, prices, ratings, and reviews",
+      "Collection of product specifications, images, and seller information",
+      "Category-wise and keyword-based product scraping",
+      "Proxy rotation and user-agent spoofing to avoid blocking",
+      "Export of clean and structured data into CSV, Excel, or database",
+      "Error handling, retry mechanism, and detailed scraping logs"
     ],
-    liveUrl: "https://careplus.services/",
-    techStack: ["WordPress", "PHP", "MySQL", "JavaScript", "Bootstrap"],
+    techStack: ["Python", "Selenium", "BeautifulSoup", "Requests", "Pandas"],
     images: [
-      "images/projects/careplus/1.png",
-      "images/projects/careplus/2.png"
+      "images/projects/Amazon/1.png",
+      "images/projects/Amazon/2.png",
+      "images/projects/Amazon/3.png"
     ]
   }
 
