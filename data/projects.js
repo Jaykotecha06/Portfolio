@@ -140,27 +140,26 @@ const projects = [
   },
   
   {
-    id: "softnoesis",
-    title: "Softnoesis CRM",
-    tech: "CodeIgniter 3",
-    category: "CRM System",
-    description: "Track employee task so productivity etc",
-    fullDescription: "Softnoesis CRM is a sophisticated Customer Relationship Management and employee productivity tracking system designed for modern businesses. The platform provides comprehensive tools for tracking employee tasks, monitoring productivity metrics, managing client relationships, and generating detailed performance reports. Built with CodeIgniter 3, it offers a robust solution for companies looking to optimize their workflow and enhance team productivity.",
+    id: "Scrapping",
+    title: "Justdial data Scrapping",
+    tech: "Python",
+    category: "Scrapping",
+    description: "Scraped business listings from JustDial to collect structured data for analysis and automation.",
+    fullDescription: "This project is an advanced JustDial Data Scraping and business information extraction system designed to collect accurate and structured data from JustDial’s public listings. The platform automates the process of gathering essential business details such as company names, contact numbers, addresses, categories, ratings, and operational information. Built using Python with tools like Requests, BeautifulSoup, and Selenium, the system ensures high-quality data collection while handling pagination, dynamic content, and anti-scraping measures. This solution is ideal for businesses looking to generate leads, analyze market trends, build local business directories, or power CRM systems with clean and reliable data.",
     features: [
-      "Comprehensive employee task tracking and management",
-      "Real-time productivity monitoring and analytics",
-      "Advanced project management with milestone tracking",
-      "Client relationship management with communication logs",
-      "Detailed reporting and performance dashboards",
-      "Time tracking with automated timesheet generation",
-      "Team collaboration tools and file sharing",
-      "Role-based access control and permission management"
+      "Automated scraping of business listings from JustDial",
+      "Extraction of key details such as name, contact, address, ratings, and categories",
+      "Smart handling of dynamic content, pagination, and load delays",
+      "Support for category-based and location-based scraping",
+      "Customizable scraping filters based on keywords or regions"
     ],
-    liveUrl: "https://projects.softnoesis.in/",
-    techStack: ["CodeIgniter 3", "PHP", "MySQL", "JavaScript", "Bootstrap", "Chart.js"],
+    techStack: ["Python", "Selenium", "BeautifulSoup", "Requests", "Pandas", "Excel"],
     images: [
-      "images/projects/crm/1.png",
-      "images/projects/crm/2.png",
+      "images/projects/Justdial/3.png",
+      "images/projects/Justdial/4.png",
+      "images/projects/Justdial/5.png",
+      "images/projects/Justdial/6.png",
+      "images/projects/Justdial/7.png",
     ]
   },
      {
